@@ -1,7 +1,7 @@
 resources:
-  - ../config/crd/kustomization.yaml  # Includes CRDs
-  - rbac.yaml                         # Role-based access controls
-  - operator.yaml                     # Operator deployment
-  - cr.yaml                           # Custom resource example
-  - secrets.yaml                      # Secret configurations, if needed
-  - sse-secret.yaml                   # SSE Secret configuration, if needed
+  - rbac.yaml         # Role-based access controls
+  - operator.yaml     # Deployment file for the operator
+  - crd.yaml          # Custom Resource Definitions
+  - cr.yaml           # Custom Resource example
+  - secrets.yaml      # Secret configurations, if needed
+  - sse-secret.yaml   # SSE Secret configuration, if needed
